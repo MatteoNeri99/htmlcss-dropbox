@@ -56,3 +56,31 @@ header{
     
 
 }
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.piano-business{
+    justify-content: space-between;
+    margin-top: rem;
+    flex-wrap: wrap;
+    width: 600px;
+    
+}
+
+.singolo,.team,.azienda{
+    width: 150px;
+    justify-content: center;
+    border: solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.enterprise{
+    border: solid black;
+    width: 600px;
+}
