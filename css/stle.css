@@ -181,3 +181,35 @@ header{
 .domande{
     margin-top: 4rem;
 }
+
+footer{
+    margin-top: 5rem;
+    background-color: #000000;
+}
+
+.nav-footer{
+    width: 800px;
+    margin: auto;
+    color: white;
+    
+}
+
+.nav-footer>ul{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.footer-hr{
+    width: 120px;
+}
+
+.lingua{
+    width: 800px;
+    margin: auto;
+    margin-top: 3rem ;
+}
+
+.lingua-pagina{
+    color: white;
+    padding: 1rem 0;
+}
