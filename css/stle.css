@@ -56,23 +56,21 @@ header{
     
 
 }
-.main{
-    display: flex;
-    flex-direction: column;
-}
 
+.fattura{
+    margin-bottom: 4rem;
+}
 
 
 .piano-business{
     justify-content: space-between;
-    margin-top: rem;
     flex-wrap: wrap;
-    width: 600px;
+    margin: auto;
     
 }
 
 .singolo,.team,.azienda{
-    width: 150px;
+    width: 300px;
     justify-content: center;
     border: solid black;
     padding: 1rem;
@@ -82,5 +80,104 @@ header{
 
 .enterprise{
     border: solid black;
-    width: 600px;
+    width: 1000px;
+    height: 200;
+}
+
+.small-width{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.partner{
+    margin-top: 4rem;
+}
+
+.partner-img{
+    width: 450px;
+    height: auto;
+}
+
+.descrizione-partner{
+    width: 300px;
+    margin:2rem  2rem;
+}
+.business-conteiner{
+    flex-wrap: wrap;
+}
+.business-titolo{
+    margin-top: 4rem;
+}
+
+.business-conteiner>article>img,.business-conteiner>article{
+    width:300px ;
+    height: auto;
+    margin-top: 2rem;
+
+}
+
+.clienti{
+    margin-top: 5rem;
+}
+
+.titolo-clienti{
+    margin-bottom: 2rem;
+}
+.img-logo{
+    width:400px ;
+    flex-wrap: wrap;
+}
+
+.img-logo>article{
+    width: 200px;
+    height: 200px;
+}
+
+.designt-conteiner{
+    background-color:#a2d39b ;
+}
+
+.arizona-conteiner{
+    background-color: #61082b;
+
+}
+
+.florida-conteiner{
+    background-color: #0093ce;
+}
+
+.topps-conteiner{
+    background-color: #ff1c1c;
+}
+.designt,.arizona,.topps{
+    width: 100px;
+    height: auto;
+}
+
+.florida{
+    width: 150px;
+    height: 30px;
+}
+
+.designt-conteiner,.arizona-conteiner,.florida-conteiner,.topps-conteiner{
+    justify-content: center;
+    align-items: center;
+}
+
+.descrizione-team{
+    width:480px ;
+}
+
+.titolo-prova-gratuita{
+    justify-content: space-between;
+}
+
+.prova-gratuita{
+    background-color:#b4d0e7 ;
+    height:200px ;
+    align-items: center;
+}
+
+.domande{
+    margin-top: 4rem;
 }
