@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display-flex{
+    display: flex;
+
+}
+header{
+    margin-bottom: 2rem;
+    background-color:#b4d0e7 ;
+}
+
+.header-nav{
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+
+}
+
+.divisione-nav {
+    align-items: center;
+    justify-content: center;
+}
+
+.dropbox-presentazione{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+.jumbotron-img{
+    width:500px ;
+    height:auto ;
+
+}
+
+.jumbotron-descrizione{
+    width: 300px;
+}
+
+.titolo-jumbotron{
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    padding:0 15rem;
+}
+
+
+.jumbotron{
+    margin-top: 4rem;
+    
+
+}
