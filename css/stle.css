@@ -9,6 +9,11 @@
     display: flex;
 
 }
+
+/*header*/
+
+/*header-nav*/
+
 header{
     margin-bottom: 2rem;
     background-color:#b4d0e7 ;
@@ -53,6 +58,10 @@ nav ul li a{
     height: 25px;
     width: 50px;
 }
+
+/*header-nav*/
+
+/*jumbotron*/
 
 .dropbox-presentazione{
     flex-direction: column;
@@ -106,6 +115,15 @@ nav ul li a{
     margin-top: 2.5rem;
 }
 
+/*jumbotron*/
+
+/*header*/
+
+
+/*main*/
+
+/*section fattura*/
+
 .fattura{
     margin-bottom: 4rem;
     margin-top:7rem ;
@@ -133,9 +151,7 @@ input{
 .fattura article h2{
     margin-top:2rem;
 }
-.fa-check{
-    color: #0061ff ;
-}
+
 .botton-fattura{
     font-size: .6rem;
     background-color: #0061ff;
@@ -143,9 +159,19 @@ input{
     color: white;
     width: 150px;
     height: 30px;
+    margin:2rem 1rem 1rem 1rem ;
 }
 
-.botton-fattura,.titolo-art-business{
+/*section fattura*/
+
+/*section business*/
+
+
+.fa-check{
+    color: #0061ff ;
+}
+
+.titolo-art-business{
     margin:2rem 1rem 1rem 1rem ;
 }
 .singolo,.team,.azienda{
@@ -164,7 +190,7 @@ input{
     margin-bottom: 2rem;
 }
 
-.piano-business{
+.piano{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
@@ -216,8 +242,9 @@ input{
     padding: 1rem;
 }
 
+/*section business*/
 
-
+/*section partner*/
 
 .small-width{
     max-width: 650px;
@@ -256,6 +283,14 @@ input{
      
 }
 
+article ul{
+    font-size: .6rem;
+}
+
+/*section partner*/
+
+/*section business*/
+
 
 .business-conteiner{
     flex-wrap: wrap;
@@ -283,13 +318,6 @@ input{
     font-size: .7rem;
 }
 
-.clienti{
-    margin-top: 5rem;
-}
-
-.titolo-clienti{
-    margin-bottom: 2rem;
-}
 .img-logo{
     width:30%;
     flex-wrap: wrap;
@@ -300,10 +328,21 @@ input{
     height: 50%;
 }
 
-article ul{
-    font-size: .6rem;
+/*section business*/
+
+/*section clienti*/
+
+.clienti{
+    margin-top: 5rem;
 }
 
+.titolo-clienti{
+    margin-bottom: 2rem;
+}
+
+/*section clienti*/
+
+/*section nostro-team*/
 
 .designt-conteiner{
     background-color:#a2d39b ;
@@ -338,9 +377,6 @@ article ul{
     background-color:#ffd830 ;
 }
 
-
-
-
 .designt,.arizona,.topps{
     width: 100px;
     height: auto;
@@ -360,6 +396,10 @@ article ul{
     width:60%;
 }
 
+/*section nostro-team*/
+
+/*section prova gratuita*/
+
 .titolo-prova-gratuita{
     justify-content: space-between;
 }
@@ -370,14 +410,27 @@ article ul{
     align-items: center;
 }
 
+/*section prova gratuita*/
+
+/*section domande*/
+
 .domande{
     margin-top: 4rem;
 }
+
+/*section domande*/
+
+/*main*/
+
+/*footer*/
 
 footer{
     margin-top: 5rem;
     background-color: #000000;
 }
+
+
+/*footer-nav*/
 
 .nav-footer{
     width: 800px;
@@ -391,9 +444,9 @@ footer{
     margin-left: 1rem;
 }
 
-.footer-hr{
-    width: 120px;
-}
+/*footer-nav*/
+
+/*section lingua*/
 
 .lingua{
     width: 800px;
@@ -405,3 +458,9 @@ footer{
     color: white;
     padding: 1rem 0;
 }
+.footer-hr{
+    width: 120px;
+}
+/*section lingua*/
+
+/*footer*/
