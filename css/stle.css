@@ -265,10 +265,14 @@ input{
 }
 
 .business-conteiner>article>img,.business-conteiner>article{
-    width:300px ;
+    width:180px ;
     height: auto;
     margin-top: 2rem;
 
+}
+
+.business-conteiner article p{
+    font-size: .7rem;
 }
 
 .clienti{
