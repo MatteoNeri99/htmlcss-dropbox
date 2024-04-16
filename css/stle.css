@@ -265,10 +265,18 @@ input{
 }
 
 .business-conteiner>article>img,.business-conteiner>article{
-    width:180px ;
+    width:206px;
     height: auto;
     margin-top: 2rem;
 
+}
+.margin-right{
+    margin-right: 1rem;
+}
+
+.business article h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .business-conteiner article p{
