@@ -124,14 +124,16 @@ header{
     margin-bottom: 2rem;
 }
 .img-logo{
-    width:400px ;
+    width:30%;
     flex-wrap: wrap;
 }
 
 .img-logo>article{
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 50%;
 }
+
+
 
 .designt-conteiner{
     background-color:#a2d39b ;
@@ -149,6 +151,26 @@ header{
 .topps-conteiner{
     background-color: #ff1c1c;
 }
+
+.bicycle-conteiner{
+    background-color: #d5001f;
+}
+
+.hearts-conteiner{
+    background-color:#b4d0e7 ;
+}
+
+.lonely-conteiner{
+    background-color: #0d2481;
+}
+
+.clear-conteiner{
+    background-color:#ffd830 ;
+}
+
+
+
+
 .designt,.arizona,.topps{
     width: 100px;
     height: auto;
@@ -159,13 +181,13 @@ header{
     height: 30px;
 }
 
-.designt-conteiner,.arizona-conteiner,.florida-conteiner,.topps-conteiner{
+.designt-conteiner,.arizona-conteiner,.florida-conteiner,.topps-conteiner,.bicycle-conteiner,.hearts-conteiner,.lonely-conteiner,.clear-conteiner{
     justify-content: center;
     align-items: center;
 }
 
 .descrizione-team{
-    width:480px ;
+    width:60%;
 }
 
 .titolo-prova-gratuita{
