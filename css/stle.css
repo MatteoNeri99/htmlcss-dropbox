@@ -12,14 +12,15 @@ header{
     margin-bottom: 2rem;
     background-color:#b4d0e7 ;
     font-family: "Open Sans", sans-serif;
+    height: 535px;
 }
 
 .header-nav{
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    padding-top: 1.1rem ;
-    padding-bottom: 1.1rem;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
 
 }
 
@@ -39,7 +40,7 @@ a{
 }
 
 .logo{
-    width: 18%;
+    width: 20%;
 }
 
 .inizia{
@@ -57,31 +58,52 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
     
 }
 
 .jumbotron-img{
-    width:500px ;
+    width:535px ;
     height:auto ;
 
 }
 
 .jumbotron-descrizione{
-    width: 300px;
+    width: 260px;
+    font-size: .65rem;
+    padding-right: .8rem;
 }
 
+.annulla{
+    margin-top: 1rem;
+}
 .titolo-jumbotron{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     margin-top: 2rem;
-    padding:0 15rem;
+   
 }
 
 
 .jumbotron{
-    margin-top: 4rem;
+    margin-top: 3rem;
     
 
+}
+
+.button-jumbotron{
+    margin-top: 1rem;
+    background-color: #0061ff ;
+    color: white;
+    border: none;
+    font-size: .65rem;
+    width: 150px;
+    height: 30px;
+}
+
+.fa-arrow-down{
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
 }
 
 .fattura{
