@@ -438,14 +438,32 @@ article ul{
 
 /*section prova gratuita*/
 
-.titolo-prova-gratuita{
+
+.prova-gratuita{
+    height: 250px;
+    align-items: center;
+    background-color:#b4d0e7 ;
+   
+}
+
+.conteiner-prova-gratuita{
     justify-content: space-between;
 }
 
-.prova-gratuita{
-    background-color:#b4d0e7 ;
-    height:200px ;
-    align-items: center;
+
+.titolo-prova-gratuita{
+    color:#610425 ;
+    font-size: 1.5rem;
+ 
+}
+
+.button-prova-gratuita{
+    font-size: .7rem;
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border: none;
+
 }
 
 /*section prova gratuita*/
@@ -455,7 +473,21 @@ article ul{
 .domande{
     margin-top: 4rem;
 }
+.domande>h2{
+    font-size: 1.8rem;
+}
 
+.domande>*{
+    margin-top: 2rem;
+}
+.conteiner-domande>*{
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.conteiner-domande{
+    justify-content: space-between;
+}
 /*section domande*/
 
 /*main*/
