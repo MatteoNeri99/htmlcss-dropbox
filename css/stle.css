@@ -333,11 +333,16 @@ article ul{
 /*section clienti*/
 
 .clienti{
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 .titolo-clienti{
     margin-bottom: 2rem;
+    width: 400px;
+}
+
+.link-clienti{
+    font-size: .7rem;
 }
 
 /*section clienti*/
