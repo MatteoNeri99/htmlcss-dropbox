@@ -488,6 +488,10 @@ article ul{
 .conteiner-domande{
     justify-content: space-between;
 }
+
+span{
+    margin-right: 2rem;
+}
 /*section domande*/
 
 /*main*/
@@ -511,7 +515,12 @@ footer{
 
 .nav-footer>ul{
     margin-top: 2rem;
-    margin-left: 1rem;
+}
+
+ul>*{
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+
 }
 
 /*footer-nav*/
@@ -525,11 +534,13 @@ footer{
 }
 
 .lingua-pagina{
-    color: white;
+    color: #99999b;
     padding: 1rem 0;
+    font-size: .7rem;
 }
 .footer-hr{
-    width: 120px;
+    width: 80px;
+    color: white;
 }
 /*section lingua*/
 
