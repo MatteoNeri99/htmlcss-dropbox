@@ -164,7 +164,7 @@ input{
 
 /*section fattura*/
 
-/*section business*/
+/*section piano*/
 
 
 .fa-check{
@@ -184,7 +184,6 @@ input{
     width:40px ;
     margin: 2rem 1rem;
 }
-
 
 .team ul:last-child{
     margin-bottom: 2rem;
@@ -242,7 +241,7 @@ input{
     padding: 1rem;
 }
 
-/*section business*/
+/*section piano*/
 
 /*section partner*/
 
@@ -318,16 +317,6 @@ article ul{
     font-size: .7rem;
 }
 
-.img-logo{
-    width:30%;
-    flex-wrap: wrap;
-}
-
-.img-logo>article{
-    width: 50%;
-    height: 50%;
-}
-
 /*section business*/
 
 /*section clienti*/
@@ -348,6 +337,10 @@ article ul{
 /*section clienti*/
 
 /*section nostro-team*/
+
+.nostro-team{
+    margin-top: 7rem;
+}
 
 .designt-conteiner{
     background-color:#a2d39b ;
@@ -382,14 +375,16 @@ article ul{
     background-color:#ffd830 ;
 }
 
-.designt,.arizona,.topps{
+.designt,.arizona,.topps,.bicycle,.hearts,.lonely,.clear{
     width: 100px;
     height: auto;
+    filter: invert(100%);
 }
 
 .florida{
-    width: 150px;
-    height: 30px;
+    width: 120px;
+    height: 20px;
+    filter: invert(100%);
 }
 
 .designt-conteiner,.arizona-conteiner,.florida-conteiner,.topps-conteiner,.bicycle-conteiner,.hearts-conteiner,.lonely-conteiner,.clear-conteiner{
@@ -398,7 +393,45 @@ article ul{
 }
 
 .descrizione-team{
-    width:60%;
+    width:34%;
+    padding: 2rem;
+    background-color:#f5f5f5 ;
+}
+
+.paragrafo-nostro-team{
+    font-size: .7rem;
+    margin-top: 2rem;
+
+}
+
+.autore-paragrafo-nostro-team{
+    margin-top:3rem ;
+    margin-bottom: 6rem;
+    font-size: .7rem;
+}
+
+.img-logo{
+    width:33%;
+    flex-wrap: wrap;
+}
+
+.img-logo>article{
+    width: 50%;
+    height: 50%;
+}
+
+
+.hr-nostro-team{
+    width: 70px;
+    margin-top: 2rem;
+}
+
+.logo-nostro-team{
+    width:180px ;
+}
+
+.designt-conteiner{
+   border:10px solid #d1e9cd;
 }
 
 /*section nostro-team*/
