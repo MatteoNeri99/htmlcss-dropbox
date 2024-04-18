@@ -517,10 +517,9 @@ footer{
     margin-top: 2rem;
 }
 
-ul>*{
+footer>nav>ul>*{
     margin-bottom: 1rem;
     margin-right: 3rem;
-
 }
 
 /*footer-nav*/
